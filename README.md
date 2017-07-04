@@ -1,3 +1,10 @@
+# Fork notes
+
+This fork of libpfc adds some minor features to make it more useful for [uarch-bench](https://github.com/travisdowns/uarch-bench) such as:
+
+ - Support for Intel CPUs with Performance Monitoring Architecture v4 (Skylake and later)
+ - A plain Makefile based build system (to more easily integrate with uarch-bench's Makefile based build system)
+
 # libpfc
 
 _A small library and kernel module for easy access to x86 performance monitor counters under Linux._
